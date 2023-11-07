@@ -1,0 +1,20 @@
+.col{
+    color: dodgerblue;
+    border: 1px solid white;
+    height: 100%;
+    color: aliceblue;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.es1{
+    height: 600px;
+}
+
+.row-es1-es2{
+    height: 100px;
+}
