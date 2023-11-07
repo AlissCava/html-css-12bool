@@ -1,20 +1,19 @@
-.col{
-    color: dodgerblue;
+:root {
+    font-size: 14px;
+    scroll-behavior: smooth;
+
+}
+
+
+[class*="col-"] {
+    background-color: blue;
     border: 1px solid white;
-    height: 100%;
-    color: aliceblue;
+    min-height: 100px;
 }
 
-.row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
-.es1{
-    height: 600px;
-}
 
-.row-es1-es2{
-    height: 100px;
-}
+
+
+
+
